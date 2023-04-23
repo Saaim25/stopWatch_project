@@ -1,3 +1,4 @@
+// getting all the variable
 var sec = 00;
 var tens = 00;
 
@@ -11,6 +12,8 @@ var btnStop = document.querySelector(".btn-stop");
 var btnReset = document.querySelector(".btn-reset");
 
 let interval;
+
+// adding all the click evetn listener to appropriate buttons
 
 btnStart.addEventListener("click", () => {
   interval = setInterval(startTimer, 10);
@@ -28,6 +31,8 @@ btnReset.addEventListener("click", () => {
   getSecs.innerHTML = "00";
   stop();
 });
+
+//timer function which controls the time
 
 function startTimer() {
   tens++;

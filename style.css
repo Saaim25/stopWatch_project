@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
 }
-
+/* Body styling */
 body {
   height: 100vh;
   display: flex;
@@ -11,6 +11,15 @@ body {
   flex-direction: column;
   background-color: lightgrey;
 }
+
+/* Heading */
+
+.title {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+/* Timer Display */
 
 .container {
   display: flex;
@@ -25,7 +34,7 @@ body {
   font-size: 2.4rem;
   box-shadow: black;
 }
-
+/* buttons  */
 .btn button {
   margin: 0 10px;
   width: 100px;
@@ -37,7 +46,7 @@ body {
   font-family: "Times New Roman", Times, serif;
   font-weight: bold;
 }
-
+/* buttons hover effects */
 .btn button:hover,
 .btn button:focus {
   box-shadow: 0px 4px 27px -5px black;
